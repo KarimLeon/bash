@@ -7,7 +7,7 @@ instructions
 
 read a
 
-if [ $a = 'Y' ] || [] $a = 'y' ]; then
+if [ $a = 'Y' ] || [ $a = 'y' ]; then
      printf 'YES'
 else 
      printf 'NO'
